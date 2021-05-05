@@ -1,7 +1,7 @@
 import React from "react";
 import "./Dog.css";
 
-function Dog(props) {
+const Dog = (props) => {
   return (
     <div className="Dog">
       <img className="Dog-image" src={props.image} />
@@ -10,6 +10,6 @@ function Dog(props) {
       </p>
     </div>
   );
-}
+};
 
 export default Dog;
